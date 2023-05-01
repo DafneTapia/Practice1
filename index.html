@@ -1,0 +1,127 @@
+<!-- DOCTYPE le dice al navegador que este archivo es tipo html-->
+<!DOCTYPE html> 
+<html lang="es">
+    <!--Info para el navegador y extras-->
+    <head>
+        <!--Titulos-->
+        <title> :) </title>
+        <!--Conectar css-->
+        <link rel="stylesheet" href="style.css">
+        <!--Agregar fuente de google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+    </head>
+    
+    <!--Dentro de mi body vaos a poner lo que el usuario ve-->
+    <body>
+        <!--Division de pruebas-->
+        <div>
+         <h1> Hola mundo!!</h1>
+        <h2> Hola mundo!!</h2>
+        <h3> Hola mundo!!</h3>
+        <h4> Hola mundo!!</h4>
+        <h5> Hola mundo!!</h5>
+        <h6> Hola mundo!!</h6>  
+        <p>Texto texto</p>
+
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam distinctio ducimus reprehenderit quod neque natus necessitatibus delectus repellat? Deleniti corrupti a repellat sunt minima ut inventore ipsum, magni aspernatur illo.</p>
+        </div>
+        
+        <!--Main-->
+        <main>
+            <h1 class="titulo-web">Web gatuna</h1> 
+            <h2> Imagenes de gatos</h2>
+            <!--Atributos son src (source: de donde viene) y alt-->
+            <img src ="https://i.kym-cdn.com/photos/images/newsfeed/002/486/125/716">
+            <br> <!--Manda al sig renglon la img siguiente-->
+            <img class="max-sky"src ="/Imagenes/16387386-screenshot_l.jpg">
+        
+            <!--Listas-->
+            <h3>Listas de gatos</h3>
+            <div><!--Elemento div (division de otro elemento)-->
+                <!--strong elemento para letras negritas-->
+                <p>Cosas que los gatos <strong> aman </strong></p>
+                <!--em elemento para letras cursivas-->
+                <p> <em> Lista hecha por Dafne</em>  </p>
+                <!--Lista no ordenada (ul) = unordered list-->
+                <ul>
+                    <li>Juguetes</li> <!--Item de la lista-->
+                    <li>Plantas</li>
+                    <li>Capys</li>
+                </ul>
+
+                <img src = "/Imagenes/te-verde.png" alt = "Te verde">
+                <img src = "/Imagenes/amor.png" alt = "Amor">
+
+                <!--Lista ordenada (ol) = ordered list-->
+                <p>Cosas que los gatos odian</p>
+                <ol>
+                    <li>Truenos</li>
+                    <li>Otros gatos</li>
+                    <li>Agua</li>
+                    <!-- si pones li*3 se haran esa cantidad de elementos para tu lista-->
+                </ol>
+
+            </div>
+
+            <!--Enlaces internos-->
+            <a href = "#parrafo-1">Parrafo 1</a>
+            <a href = "#parrafo-2">Parrafo 2</a>
+            <a href = "#parrafo-3">Parrafo 3</a>
+            
+            <h3 id = "parrafo-1">Parrafo 1</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, minus fugiat eos perferendis placeat veritatis unde? Esse doloribus eum, cum adipisci similique reprehenderit, repellat enim veniam at sit, aspernatur provident?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat illum possimus officiis dolor quod unde laboriosam quae facere cupiditate sint ex exercitationem aliquam recusandae, ad excepturi obcaecati tenetur fugit mollitia!</p>
+
+            <h3 id = "parrafo-2">Parrafo 2</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, minus fugiat eos perferendis placeat veritatis unde? Esse doloribus eum, cum adipisci similique reprehenderit, repellat enim veniam at sit, aspernatur provident?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat illum possimus officiis dolor quod unde laboriosam quae facere cupiditate sint ex exercitationem aliquam recusandae, ad excepturi obcaecati tenetur fugit mollitia!</p>
+
+            <h3 id = "parrafo-3">Parrafo 3</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, minus fugiat eos perferendis placeat veritatis unde? Esse doloribus eum, cum adipisci similique reprehenderit, repellat enim veniam at sit, aspernatur provident?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat illum possimus officiis dolor quod unde laboriosam quae facere cupiditate sint ex exercitationem aliquam recusandae, ad excepturi obcaecati tenetur fugit mollitia!</p>
+            
+            <!--Enlaces externos-->
+            <p>En este <a href="https://www.google.com/search?q=maxwell+the+cat&tbm=isch&hl=es-419&chips=q:maxwell+the+cat,online_chips:3d+model:amFkrKOVm7o%3D,online_chips:black+cat+meme:-32KrK-n8JE%3D&rlz=1C1ONGR_esMX927MX927&sa=X&ved=2ahUKEwjNhMXHrdT9AhWU8ckDHReaAhoQ4lYoBHoECAEQMQ&biw=1349&bih=600#imgrc=g_RFbNOT06vHoM">link</a></p>
+            <a href="https://play.google.com/store/apps/details?id=com.sparkinggamesofficial.MaxwellTheCat&hl=es_419&gl=US"> <img src="https://i.ytimg.com/vi/l8W98L94gw8/maxresdefault.jpg" ></a>
+           
+            <!-- Formularios con radio-->
+            <p> ¿Tu gatito es cachorro o adulto?</p>
+              <!-- Opcion cachorro-->
+              <label for="cachorro">
+                <!-- si se pone <input type="text"> se introduce texto-->
+                <input id ="cachorro" type="radio" value="cachorro" name="edad" > Cachorro 
+              </label>
+
+              <!-- Opcion adulto-->
+              <label for="adulto">
+                <input id ="adulto" type="radio" value="adulto" name="edad" > Adulto
+              </label>
+
+            <!-- Formulario con checkbox-->
+            <p>¿Qué tipo de gato es el tuyo?</p>
+            <label for="cariñoso">
+                <input id="cariñoso"type="checkbox" value="cariñoso" name="personalidad"> cariñoso
+            </label>
+
+            <label for="enojon">
+                <input id="enojon"type="checkbox" value="enojon" name="personalidad"> enojon
+            </label>
+
+            <label for="perezoso">
+                <input id="perezoso"type="checkbox" value="perezoso" name="personalidad"> perezoso
+            </label>
+
+            <label for="jugueton">
+                <input id="jugueton"type="checkbox" value="jugueton" name="personalidad"> jugueton 😜<!--windows punto-->
+            </label> 
+        </main>
+        <!--Footer esta dentro de body-->
+        <footer>
+            <p class="pie">Pagina creada por Dafne en 
+                <a href="https://tecnolochicas.mx/"> Tecnolochicas Pro</a>
+            </p>
+        </footer>
+    </body>
+</html>

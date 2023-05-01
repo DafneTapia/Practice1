@@ -1,0 +1,36 @@
+/*Aqui va el comentario*/
+body{
+    /* RGB red green blue*/
+    background-color: rgb(226, 250, 210);
+    color:rgb(75, 14, 80);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color:mediumvioletred
+}
+
+h1{
+    color:darkgreen
+}
+
+/*Para agregar clase, ponemos un (.) antes del nombre*/
+.titulo-web{
+    color:rgb(80, 25, 25);
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.max-sky{
+    width: 500px;
+}
+
+img{
+    width:300px; /*width es ancho*/
+   /* height:300px; */
+}
+
+.pie{
+    text-align: center;
+}
